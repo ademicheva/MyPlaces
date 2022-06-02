@@ -14,6 +14,8 @@
 		C70A9B0A2847A999000E22F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70A9B082847A999000E22F3 /* LaunchScreen.storyboard */; };
 		C70A9B122847AD80000E22F3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A9B112847AD80000E22F3 /* MainViewController.swift */; };
 		C70A9B142848A0CC000E22F3 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A9B132848A0CC000E22F3 /* CustomTableViewCell.swift */; };
+		C70A9B162848A61A000E22F3 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A9B152848A61A000E22F3 /* PlaceModel.swift */; };
+		C70A9B182848D1C0000E22F3 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A9B172848D1C0000E22F3 /* NewPlaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C70A9B0B2847A999000E22F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C70A9B112847AD80000E22F3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C70A9B132848A0CC000E22F3 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		C70A9B152848A61A000E22F3 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		C70A9B172848D1C0000E22F3 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				C70A9AFF2847A998000E22F3 /* SceneDelegate.swift */,
 				C70A9B032847A998000E22F3 /* Main.storyboard */,
 				C70A9B112847AD80000E22F3 /* MainViewController.swift */,
+				C70A9B172848D1C0000E22F3 /* NewPlaceViewController.swift */,
+				C70A9B152848A61A000E22F3 /* PlaceModel.swift */,
 				C70A9B132848A0CC000E22F3 /* CustomTableViewCell.swift */,
 				C70A9B062847A999000E22F3 /* Assets.xcassets */,
 				C70A9B082847A999000E22F3 /* LaunchScreen.storyboard */,
@@ -142,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C70A9B122847AD80000E22F3 /* MainViewController.swift in Sources */,
+				C70A9B182848D1C0000E22F3 /* NewPlaceViewController.swift in Sources */,
 				C70A9AFE2847A998000E22F3 /* AppDelegate.swift in Sources */,
+				C70A9B162848A61A000E22F3 /* PlaceModel.swift in Sources */,
 				C70A9B142848A0CC000E22F3 /* CustomTableViewCell.swift in Sources */,
 				C70A9B002847A998000E22F3 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,6 +301,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8395794QY4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyPlaces/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -320,6 +329,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8395794QY4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyPlaces/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
